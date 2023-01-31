@@ -21,12 +21,4 @@ main().catch((error) => {
   process.exitCode = 1;
 });
 
-async function getShortStr() {
-
-
-
-
-}
-
-getShortStr(0);
 
