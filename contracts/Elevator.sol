@@ -5,6 +5,8 @@ interface Building {
     function isLastFloor(uint256) external returns (bool);
 }
 
+//Challenge :- To define the bool top true;
+
 contract Elevator {
     bool public top;
     uint256 public floor;
@@ -18,6 +20,13 @@ contract Elevator {
         }
     }
 }
+
+
+//////////////////////////////////////////////////////////
+//////////////////ATTCK///////////////////////////////////
+//////////////////////////////////////////////////////////
+
+
 
 contract MyBuilding {
     Elevator elevator;
